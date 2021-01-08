@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="9600K"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-09 10:24:48 &#50724;&#51204;"/>
+        <attribute name="created" value="OTYwMEs7SFdBTjsyMDIwLTA5LTA5OzEwOjA3OjM3IOyYpOyghDsxMDM2Mzk="/>
+        <attribute name="edited" value="OTYwMEs7SFdBTjsyMDIwLTA5LTA5OzEwOjI0OjQ4IOyYpOyghDsxMzsxMDM3OTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#49892;&#49845;1: &#49692;&#52264;&#44396;&#51312;"/>
+            <comment text="grade &#54617;&#51216; &#51200;&#51109;&#54616;&#45716; &#48320;&#49688;"/>
+            <declare name="grade" type="Real" array="False" size=""/>
+            <assign variable="grade" expression="4.3"/>
+            <call expression="hello"/>
+            <comment text="money &#44552;&#50529; &#51200;&#51109; &#48320;&#49688;"/>
+            <declare name="money" type="Integer" array="False" size=""/>
+            <assign variable="money" expression="1000"/>
+            <output expression="money" newline="True"/>
+            <output expression="grade" newline="True"/>
+        </body>
+    </function>
+    <function name="hello" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#50504;&#45397;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
